@@ -8,5 +8,6 @@ Lojistas, assistências técnicas e similares.
 
 ## 🖥️ Tecnologias usadas
 * Visual Studio
+* Windows Forms
 * C#
 * SQL Server
