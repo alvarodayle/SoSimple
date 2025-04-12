@@ -176,13 +176,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Empresa.Models\Simple.Models.csproj">
+    <ProjectReference Include="..\Empresa.Models\Empresa.Models.csproj">
       <Project>{b9908f9b-cf22-4949-9352-c3c604a21ce1}</Project>
-      <Name>Simple.Models</Name>
+      <Name>Empresa.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\EmpresaDb\Simple.Db.csproj">
+    <ProjectReference Include="..\EmpresaDb\Empresa.Db.csproj">
       <Project>{ef791cb0-b3a4-47db-8b92-08d8a1dc26de}</Project>
-      <Name>Simple.Db</Name>
+      <Name>Empresa.Db</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

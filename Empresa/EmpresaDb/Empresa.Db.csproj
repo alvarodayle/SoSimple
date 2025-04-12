@@ -58,9 +58,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Empresa.Models\Simple.Models.csproj">
+    <ProjectReference Include="..\Empresa.Models\Empresa.Models.csproj">
       <Project>{b9908f9b-cf22-4949-9352-c3c604a21ce1}</Project>
-      <Name>Simple.Models</Name>
+      <Name>Empresa.Models</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
