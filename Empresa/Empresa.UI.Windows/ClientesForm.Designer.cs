@@ -372,6 +372,7 @@
             this.Controls.Add(this.conteudoPanel);
             this.Controls.Add(this.panel1);
             this.Name = "ClientesForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Clientes";
             this.Load += new System.EventHandler(this.ClientesForm_Load);
             this.panel1.ResumeLayout(false);

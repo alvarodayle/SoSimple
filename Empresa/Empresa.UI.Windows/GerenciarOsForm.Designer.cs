@@ -104,7 +104,7 @@
             this.buscarOsTabControl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buscarOsTabControl.ItemSize = new System.Drawing.Size(45, 40);
             this.buscarOsTabControl.Location = new System.Drawing.Point(12, 92);
-            this.buscarOsTabControl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buscarOsTabControl.Margin = new System.Windows.Forms.Padding(4);
             this.buscarOsTabControl.Name = "buscarOsTabControl";
             this.buscarOsTabControl.SelectedIndex = 0;
             this.buscarOsTabControl.Size = new System.Drawing.Size(1307, 527);
@@ -118,9 +118,9 @@
             this.tabBuscar.Controls.Add(this.filtroTextBox);
             this.tabBuscar.Controls.Add(this.filtroComboBox);
             this.tabBuscar.Location = new System.Drawing.Point(4, 44);
-            this.tabBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabBuscar.Margin = new System.Windows.Forms.Padding(4);
             this.tabBuscar.Name = "tabBuscar";
-            this.tabBuscar.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabBuscar.Padding = new System.Windows.Forms.Padding(4);
             this.tabBuscar.Size = new System.Drawing.Size(1299, 479);
             this.tabBuscar.TabIndex = 0;
             this.tabBuscar.Text = "Buscar";
@@ -134,7 +134,7 @@
             this.osDataGridView.BackgroundColor = System.Drawing.SystemColors.Control;
             this.osDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.osDataGridView.Location = new System.Drawing.Point(8, 50);
-            this.osDataGridView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.osDataGridView.Margin = new System.Windows.Forms.Padding(4);
             this.osDataGridView.Name = "osDataGridView";
             this.osDataGridView.RowHeadersWidth = 51;
             this.osDataGridView.Size = new System.Drawing.Size(1283, 398);
@@ -144,7 +144,7 @@
             // 
             this.pesquisarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pesquisarButton.Location = new System.Drawing.Point(1109, 7);
-            this.pesquisarButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pesquisarButton.Margin = new System.Windows.Forms.Padding(4);
             this.pesquisarButton.Name = "pesquisarButton";
             this.pesquisarButton.Size = new System.Drawing.Size(181, 30);
             this.pesquisarButton.TabIndex = 3;
@@ -702,10 +702,11 @@
             this.Controls.Add(this.buscarOsTabControl);
             this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimumSize = new System.Drawing.Size(1349, 677);
             this.Name = "GerenciarOsForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gerenciamento de Ordens de Serviço";
             this.Load += new System.EventHandler(this.GerenciarOsForm_Load_1);
             this.buscarOsTabControl.ResumeLayout(false);

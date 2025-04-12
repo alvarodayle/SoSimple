@@ -454,6 +454,7 @@
             this.Controls.Add(this.conteudoPanel);
             this.Controls.Add(this.panel1);
             this.Name = "PecaForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Peças";
             this.Load += new System.EventHandler(this.PecaForm_Load);
             this.panel1.ResumeLayout(false);

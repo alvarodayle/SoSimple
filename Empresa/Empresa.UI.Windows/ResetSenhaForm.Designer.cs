@@ -173,6 +173,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ResetSenhaForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reset de Senha";
             this.ResumeLayout(false);
             this.PerformLayout();

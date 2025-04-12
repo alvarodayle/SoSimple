@@ -40,6 +40,7 @@
             this.voltarButton = new System.Windows.Forms.Button();
             this.conteudoPanel = new System.Windows.Forms.Panel();
             this.fichaPanel = new System.Windows.Forms.Panel();
+            this.resetSenhaButton = new System.Windows.Forms.Button();
             this.mensagemLabel = new System.Windows.Forms.Label();
             this.erroLabel = new System.Windows.Forms.Label();
             this.loginLabel = new System.Windows.Forms.Label();
@@ -50,7 +51,6 @@
             this.nomeLabel = new System.Windows.Forms.Label();
             this.idTextBox = new System.Windows.Forms.TextBox();
             this.listaDataGridView = new System.Windows.Forms.DataGridView();
-            this.resetSenhaButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.conteudoPanel.SuspendLayout();
@@ -192,6 +192,19 @@
             this.fichaPanel.Size = new System.Drawing.Size(461, 367);
             this.fichaPanel.TabIndex = 1;
             // 
+            // resetSenhaButton
+            // 
+            this.resetSenhaButton.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.resetSenhaButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.resetSenhaButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.resetSenhaButton.Location = new System.Drawing.Point(113, 251);
+            this.resetSenhaButton.Name = "resetSenhaButton";
+            this.resetSenhaButton.Size = new System.Drawing.Size(333, 36);
+            this.resetSenhaButton.TabIndex = 27;
+            this.resetSenhaButton.Text = "Resetar a Senha do Colaborador";
+            this.resetSenhaButton.UseVisualStyleBackColor = false;
+            this.resetSenhaButton.Click += new System.EventHandler(this.resetSenhaButton_Click);
+            // 
             // mensagemLabel
             // 
             this.mensagemLabel.ForeColor = System.Drawing.Color.Red;
@@ -282,19 +295,6 @@
             this.listaDataGridView.Size = new System.Drawing.Size(381, 368);
             this.listaDataGridView.TabIndex = 0;
             // 
-            // resetSenhaButton
-            // 
-            this.resetSenhaButton.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.resetSenhaButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.resetSenhaButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.resetSenhaButton.Location = new System.Drawing.Point(113, 251);
-            this.resetSenhaButton.Name = "resetSenhaButton";
-            this.resetSenhaButton.Size = new System.Drawing.Size(333, 36);
-            this.resetSenhaButton.TabIndex = 27;
-            this.resetSenhaButton.Text = "Resetar a Senha do Colaborador";
-            this.resetSenhaButton.UseVisualStyleBackColor = false;
-            this.resetSenhaButton.Click += new System.EventHandler(this.resetSenhaButton_Click);
-            // 
             // FuncionarioForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -303,6 +303,7 @@
             this.Controls.Add(this.conteudoPanel);
             this.Controls.Add(this.panel1);
             this.Name = "FuncionarioForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Funcionários";
             this.Load += new System.EventHandler(this.FuncionarioForm_Load);
             this.panel1.ResumeLayout(false);

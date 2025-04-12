@@ -267,6 +267,7 @@
             this.Controls.Add(this.conteudoPanel);
             this.Controls.Add(this.panel1);
             this.Name = "ProdutoForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Produtos";
             this.Load += new System.EventHandler(this.ProdutoForm_Load);
             this.panel1.ResumeLayout(false);
